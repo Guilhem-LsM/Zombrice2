@@ -25,8 +25,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         }
 
-        Debug.Log(scrollValue);
-
     }
 }
 

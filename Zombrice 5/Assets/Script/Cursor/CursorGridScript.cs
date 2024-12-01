@@ -15,7 +15,6 @@ public class CursorGridScript : MonoBehaviour
         mousePositionVector = Camera.main.ScreenToWorldPoint(mousePositionVector);
         mousePositionVector /= (float)0.08;
         mousePositionVector += new Vector2((float)0.4,(float)0.4);
-        Debug.Log(mousePositionVector);
         mousePositionVector = new Vector2((float)Math.Floor(mousePositionVector.x), (float)Math.Floor(mousePositionVector.y));
         mousePositionVector *= (float)0.08;
 

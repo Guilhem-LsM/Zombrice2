@@ -7,10 +7,15 @@ public class MapManager : MonoBehaviour
 
     public List<List<int>> map = new List<List<int>>();
     public List<Vector2> movementVerifyAround = new List<Vector2>();
-
+    public Item itemn1;
 
     void Start()
     {
+
+        itemn1 = new Item(5, 7, 8);
+        Debug.Log(itemn1.type);
+        Debug.Log(itemn1.valueResource);
+        Debug.Log(itemn1.valueMoney);
 
         movementVerifyAround.Add(new Vector2(1, 0));
         movementVerifyAround.Add(new Vector2(1, -1));
