@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3582c1a3df673db409831d1694445f28, type: 3}
+  m_Name: BrittanyRain
+  m_EditorClassIdentifier: 
+  type: 2
+  sprite: {fileID: 0}
+  name: Brittany Rain
+  listRedDamagePosition: []
+  listOrangeDamagePosition: []
+  listYellowDamagePosition: []
+  firstZone: {x: -4, y: -4}
+  secondZone: {x: 4, y: 4}
+  howMuchBombs: 25
+  BombType: 1
+  position: {x: 0, y: 0}
+  damagePerShot: 0
+  rateOfFire: 0
+  range: 0
